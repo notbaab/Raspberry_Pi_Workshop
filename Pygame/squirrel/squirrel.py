@@ -71,7 +71,7 @@ def main():
     BASICFONT = pygame.font.Font('freesansbold.ttf', 32)
 
     # load the image files
-    L_SQUIR_IMG = pygame.image.load('squirrel.png')
+    L_SQUIR_IMG = pygame.image.load('this guy.png')
     R_SQUIR_IMG = pygame.transform.flip(L_SQUIR_IMG, True, False)
     GRASSIMAGES = []
     for i in range(1, 5):
