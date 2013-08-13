@@ -1,0 +1,55 @@
+Linux Cheat Sheets
+terms
+	Directory
+		A directory is a fancy name for a folder
+	Home Directory (~)
+		The home directory is a special folder that you can switch to (or cd into)
+		by typing cd ~ in the terminal window. No matter where you are you can 
+		change to the home directory.
+	Parent Directory
+		The parent directory is the directory above the current one. You can get 
+		to the parent directory by typing cd .. into the terminal window
+
+Commands
+	cd-change directory. You use cd when you want to change a directory in the 
+	terminal window.
+		How to use cd
+			cd where_to_change
+				Where to change is a folder that is in you current directory
+		example
+			cd Desktop
+				change to Desktop if you are in the home directory
+			cd python_games
+				Change to python_game directory if you are in the home directory
+			cd ~/Desktop
+				Change to desktop from anywhere 
+
+	ls-list files all the files the directory. 
+		How to use ls
+			ls folder_you_want_to_list
+		Example
+			ls 
+				list the contents of the current directory you are in.
+			ls ..
+				list the contents of the parent directory
+			ls ~/Desktop
+				list all the contents of the desktop directory
+
+	python-run a python script. A python script is a file that ends in .py
+		How to use
+			python a_python_file
+
+
+	mkdir-make a folder
+	pwd-see what directory you are in
+
+
+Tips and Tricks
+	Auto completion
+		When typing a path like cd ~/python_games, press the TAB key(it's above
+		the caps lock) after you have a few letters, like cd ~/pyt, and linux will
+		automatically auto complete the name for you. 
+	ctrl-d
+		when a progarm is running in the terminal and you want to end it, simply
+		press ctrl-d and the program will exit
+		
