@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 
 # use P1 header pin numbering convention
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BCM)
 
 # Set up the GPIO channels - one input and one output
 GPIO.setup(11, GPIO.IN)

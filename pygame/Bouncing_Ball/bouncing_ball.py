@@ -11,7 +11,7 @@ black = 0, 0, 0
 # this line sets the resolution of the screen by calling set_mode
 # it is saved as a variable screen because it will be needed to draw objects on 
 # the screen
-screen = pygame.display.set_mode(size)
+screen = pygame.display.set_mode((320, 240))
 
 # this loads a sprite and stores it into a variable
 ball = pygame.image.load("ball.bmp")
