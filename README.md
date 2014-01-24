@@ -1,0 +1,1 @@
+A collection of python software that all runs on the raspberry pi device. This workshop is offered once a year, check http://education.sdsc.edu/studenttech/ to see when it will be offered in the summer. 
